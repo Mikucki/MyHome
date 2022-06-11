@@ -1,21 +1,24 @@
 
-.listed{
+.listed {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 0px;
-    margin: -50px;
+}
 
-
-    
+.images {
+    width: 0px;
 }
 
 * {
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif, 'Courier New', Courier, monospace;
 }
 
-
-.tagizdjecia {
-    background-image: url(../img/sky.jpg);
+.listitems {
+    text-align: center;
+    padding: 100px;
 
 }
+
+
