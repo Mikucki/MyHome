@@ -15,10 +15,16 @@
     font-family: sans-serif, 'Courier New', Courier, monospace;
 }
 
-.listitems {
+.listitems ul li {
     text-align: center;
-    padding: 100px;
+    padding: 50px;
+    list-style-type: none;
+    margin: 0px;
 
+}
+
+img {
+    width: 600px;
 }
 
 
