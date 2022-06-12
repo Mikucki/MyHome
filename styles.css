@@ -13,18 +13,29 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif, 'Courier New', Courier, monospace;
+    border: 2px solid red;
 }
+
+
 
 .listitems ul li {
     text-align: center;
     padding: 50px;
     list-style-type: none;
     margin: 0px;
+    display: inline-block;
+    
+
 
 }
 
 img {
-    width: 600px;
+    width: 450px;
+    height: 300px;
 }
 
+iframe {
+    width: 450px;
+    height: 300px;
+}
 
