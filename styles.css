@@ -20,6 +20,11 @@ body {
     border: 1px solid red;
 }
 
+.linki {
+    display: inline-flex;
+    flex-direction: column;
+    
+}
 
 
 .listitems ul li {
