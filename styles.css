@@ -1,8 +1,12 @@
+body {
+    display: inline-flex;
+    display: column;
+}
+
+
 
 .listed {
     text-align: center;
-    background-color: black;
-    color: white;
 }
 
 .images {
@@ -13,7 +17,7 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif, 'Courier New', Courier, monospace;
-   
+    border: 1px solid red;
 }
 
 
@@ -29,15 +33,34 @@
     height: 300px;
 }
 
-img {
-    border-radius: 20px;
-    border: 2px solid white;
-    box-shadow: white 0px 0px 7px;
-    
-    
-    
+div ul li h3 {
+    margin: 30px;
+
 }
 
+img {
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: grey 0px 0px 7px;
+}
+
+.textspacing {
+    color: #34568B;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 20px;
+}
+
+h3, h2 {
+    color: #34568B; 
+}
+
+
+h1 {
+    margin: 50px;
+    font-family: Arial (sans-serif);
+}
 
 
 
