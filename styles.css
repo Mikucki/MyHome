@@ -1,75 +1,127 @@
+
+
 body {
-    display: inline-flex;
-    display: column;
-}
-
-
-
-.listed {
-    text-align: center;
-}
-
-.images {
-    width: 0px;
-}
-
-* {
     margin: 0px;
-    padding: 0px;
-    font-family: sans-serif, 'Courier New', Courier, monospace;
-    border: 1px solid red;
+    font-size: 40px;
 }
 
-.contener {
-    display: flex;
+
+header {
+    background-color: black;
+    color: white;
     
 }
 
-.homepage {
-    flex: 1;
-    flex-direction: row;
-}
-
-
-.listitems ul li {
+header h1 {
+    margin: 0;
     text-align: center;
-    padding: 50px;
-    list-style-type: none;
-    margin: 0px;
-    display: inline-flex;
-    flex-direction: column;
-    width: 450px;
-    height: 300px;
 }
 
-div ul li h3 {
+section {
+    background-color: blue;
+    padding: 30px;
     margin: 30px;
+    display: flex;
+}
+
+footer {
+    background-color: black;
 
 }
 
-img {
-    border-radius: 20px;
-    border: 2px solid black;
-    box-shadow: grey 0px 0px 7px;
+section div {
+    background-color: red;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.textspacing {
-    color: #34568B;
-    display: inline-flex;
-    flex-direction: column;
-    padding: 40px;
-    margin: 20px;
+ul {
+    margin: 0px;
 }
 
-h3, h2 {
-    color: #34568B; 
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 120px 0px 0px;
 }
 
-
-h1 {
-    margin: 50px;
-    font-family: Arial (sans-serif);
+a:hover, a:visited, a:link, a:active {
+    color: wheat;
+    text-decoration: none;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body class="contener">
+    <ul>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./galeria.html">Galeria</a></li>
+        <li><a href="./mapa.html">Mapa</a></li>
+        <li><a href="./terminy.html">Wolne Terminy</a></li>
+        <li><a href="./oceny.html">Oceny</a></li>
+        <li><a href="./wyposazenie.html">Home</a></li>
+    </ul>
+    <div class="listed">
+        <h1 class="contener">Cozy Crib, MIKI Apartments</h1>
+        <h2>Dla dzieci</h2>
+            <p>Apartament (NAZWA) jest idealnym wyborem dla pary z dziecmi. Mieści sie na nowoczesnym osiedlu Invest konfortu mozna znalesc tam takie udogodnienia jak 
+                <div class="listitems">
+                    <ul>
+                        <li>
+                            <img src="./images/kosz.jpg" alt="kort do gry w kosza"> <h3>Boisko do gry w koszykowke</h3>
+                        </li>
+                        <li>
+                            <img src="./images/tenis.jpg" alt="zdjecie korta do kosza"> <h3>Kort Tenisowy</h3>
+                        </li>
+                        <li>
+                            <img src="./images/placzabaw.jpg" alt="zdjecie placu zabaw"> <h3>Plac Zabaw</h3>
+                        </li>
+                        <li>
+                            <img src="./images/placzabaw2.jpg" alt="zdjecie placu zabaw"> <h3>Plac Zabaw</h3>
+                        </li>
+                        <li>
+                            <img src="./images/placzabaw3.jpg" alt="zdjecie placu zabaw"> <h3>Plac Zabaw</h3>
+                        </li>
+                        <li>
+                            <img src="./images/fontanna.jpg" alt="zdjecie placu zabaw"> <h3>Plac Zabaw</h3>
+                        </li>
+                    </ul>
+                </div>
+            </p>
+            
+        <h2 class="textspacing">Lokalizacje</h2>
+
+        <p>Apartament (NAZWA) jest idealnym wyborem dla pary z dziecmi. Mieści sie na nowoczesnym osiedlu Invest konfortu mozna znalesc tam takie udogodnienia jak np: <strong>Boisko do gry w koszykowke</strong>, <strong>Kort Tenisowy</strong> nowoczesny <strong>Plac Zabaw</strong> sklepy oraz <strong>supermarket LIDL</strong> do najblizszego </p>
+    </div>
+</body>
+</html>
