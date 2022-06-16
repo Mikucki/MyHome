@@ -5,40 +5,22 @@ body {
     font-size: 40px;
 }
 
-
-header {
+.navbar-color {
     background-color: black;
-    color: white;
-    
 }
 
-header h1 {
+.location {
+    color: rgb(249, 32, 68);
     margin: 0;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-section {
-    background-color: blue;
-    padding: 30px;
-    margin: 30px;
-    display: flex;
-}
-
-footer {
+.contactnav {
     background-color: black;
-
 }
 
-section div {
-    background-color: red;
-    margin: auto;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-ul {
-    margin: 0px;
-}
 
 ul li {
     display: inline-block;
@@ -47,81 +29,6 @@ ul li {
 }
 
 a:hover, a:visited, a:link, a:active {
-    color: wheat;
+    color: rgb(249, 32, 68);
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
-</head>
-<body class="contener">
-    <ul>
-        <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./galeria.html">Galeria</a></li>
-        <li><a href="./mapa.html">Mapa</a></li>
-        <li><a href="./terminy.html">Wolne Terminy</a></li>
-        <li><a href="./oceny.html">Oceny</a></li>
-        <li><a href="./wyposazenie.html">Home</a></li>
-    </ul>
-    <div class="listed">
-        <h1 class="contener">Cozy Crib, MIKI Apartments</h1>
-        <h2>Dla dzieci</h2>
-            <p>Apartament (NAZWA) jest idealnym wyborem dla pary z dziecmi. Mieści sie na nowoczesnym osiedlu Invest konfortu mozna znalesc tam takie udogodnienia jak 
-                <div class="listitems">
-                    <ul>
-                        <li>
-                            <img src="./images/kosz.jpg" alt="kort do gry w kosza"> <h3>Boisko do gry w koszykowke</h3>
-                        </li>
-                        <li>
-                            <img src="./images/tenis.jpg" alt="zdjecie korta do kosza"> <h3>Kort Tenisowy</h3>
-                        </li>
-                        <li>
-                            <img src="./images/placzabaw.jpg" alt="zdjecie placu zabaw"> <h3>Plac Zabaw</h3>
-                        </li>
-                        <li>
-                            <img src="./images/placzabaw2.jpg" alt="zdjecie placu zabaw"> <h3>Plac Zabaw</h3>
-                        </li>
-                        <li>
-                            <img src="./images/placzabaw3.jpg" alt="zdjecie placu zabaw"> <h3>Plac Zabaw</h3>
-                        </li>
-                        <li>
-                            <img src="./images/fontanna.jpg" alt="zdjecie placu zabaw"> <h3>Plac Zabaw</h3>
-                        </li>
-                    </ul>
-                </div>
-            </p>
-            
-        <h2 class="textspacing">Lokalizacje</h2>
-
-        <p>Apartament (NAZWA) jest idealnym wyborem dla pary z dziecmi. Mieści sie na nowoczesnym osiedlu Invest konfortu mozna znalesc tam takie udogodnienia jak np: <strong>Boisko do gry w koszykowke</strong>, <strong>Kort Tenisowy</strong> nowoczesny <strong>Plac Zabaw</strong> sklepy oraz <strong>supermarket LIDL</strong> do najblizszego </p>
-    </div>
-</body>
-</html>
