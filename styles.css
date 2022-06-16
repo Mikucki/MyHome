@@ -12,19 +12,17 @@ body {
     color: rgb(249, 32, 68);
     margin: 0;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     font-weight: 400px;
-    background-color: black;
+    background-color: rgb(181, 181, 170);
 }
 
 .contactnav {
-    background-color: black;
+    background-color: rgb(181, 181, 170);
 }
 
 .link-styl {
     display: flex;
-    background-color: red;
+    background-color: rgb(181, 181, 170);
     width: 200px;
     height: 100px;
     justify-content: center;
@@ -36,15 +34,17 @@ body {
 .logo{
     background-image: url(./images/logo.svg);
     display: flex;
-        background-repeat: no-repeat;
-        margin: auto;
-        width: 300px;
-        height: 350px;
-        text-indent: -9999999px;
-        background-size: 200px;
-        align-items: center;
-        justify-content: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    text-indent: -9999999px;
+    margin: 0
     
+}
+
+ul li {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 
@@ -52,7 +52,7 @@ body {
    
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: white;
     margin: 0px;
     padding: 10px 40px 0px 45px; 
     align-items: center;
