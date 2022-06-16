@@ -9,7 +9,7 @@ body {
 }
 
 .location {
-    color: rgb(249, 32, 68);
+    color: rgb(0, 0, 0);
     margin: 0;
     text-align: center;
     font-weight: 400px;
@@ -23,11 +23,11 @@ body {
 .link-styl {
     display: flex;
     background-color: rgb(181, 181, 170);
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 75px;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 40px;
 }
 
 
