@@ -104,21 +104,16 @@ a:hover, a:visited, a:link, a:active {
 }
 .litte-box-flex {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;  
+    margin-bottom: 120px;
+      
 }
 .litte-box {
     width: auto;
     height: 200px;
 }
 
-.text-under-skills {
-    text-align: center;
-    color: black;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 
-}
 
 .img-sizing {
     height: 200px;
@@ -171,12 +166,49 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .progress-bar1 {
-    height: 24px;
-    width: 20%;
+    height: 17px;
+    width: 100px;
+    background-color: rgb(48, 79, 237);
+    text-align: center;
 }
 
-.border {
-    border: 7px solid brown;
+.border1 {
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.progress-bar2 {
+    height: 17px;
+    width: 190px;
+    background-color: rgb(251, 169, 55);
+    text-align: center;
+}
+
+.border2 {
+    border: 3px solid black;
+    border-radius: 7px;
+}
+.progress-bar3 {
+    height: 17px;
+    width: 110px;
+    background-color: rgb(255, 244, 35);
+    text-align: center;
+}
+
+.border3 {
+    border: 3px solid black;
+    border-radius: 7px;
+}
+.progress-bar4 {
+    height: 17px;
+    width: 20px;
+    background-color: rgb(29, 229, 255);
+    text-align: center;
+}
+
+.border4 {
+    border: 3px solid black;
+    border-radius: 7px;
 }
 
 
