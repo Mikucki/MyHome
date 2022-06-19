@@ -100,20 +100,15 @@ a:hover, a:visited, a:link, a:active {
 
 .flex-row {
     display: flex;
+    justify-content: space-around;
 }
 .litte-box-flex {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    background-color: red;
-    
-    
+    flex-direction: column;    
 }
 .litte-box {
     width: auto;
     height: 200px;
-    border-radius: 20px;
-    list-style-type: none;
 }
 
 .text-under-skills {
@@ -122,6 +117,13 @@ a:hover, a:visited, a:link, a:active {
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+
+}
+
+.img-sizing {
+    height: 200px;
+    width: auto;
+    margin-top: 160px;
 
 }
 
@@ -166,6 +168,15 @@ a:hover, a:visited, a:link, a:active {
     font-weight: bold;
     font-size: 36px;
     padding-top: 50px;
+}
+
+.progress-bar1 {
+    height: 24px;
+    width: 20%;
+}
+
+.border {
+    border: 7px solid brown;
 }
 
 
